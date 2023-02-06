@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food Delivery Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Foodiee Delivery</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#order">Order</a></li>
+        <li><a href="#delivery">Delivery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="menu">
+        <h2>Our Menu</h2>
+        <h3>Meals</h3>
+        <ul>
+          <li>Pizza</li>
+          <li>Burgers</li>
+          <li>Pasta</li>
+          <li>Biriyani</li>
+          <li>Momo Momos</li>
+        </ul>
+        <h3>Drinks</h3>
+        <ul>
+          <li>Mojitos</li>
+          <li>Juice</li>
+          <li>Shakes</li>
+          <li>Coca-Cola</li>
+        </ul>
+      </section>
+      <section id="order">
+        <h2>Order</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address">
+          <label for="item">Item:</label>
+          <select id="item" name="item">
+            <optgroup label="Meals">
+              <option value="pizza">Pizza</option>
+              <option value="burger">Burgers</option>
+              <option value="pasta">Pasta</option>
+              <option value="biriyani">Biriyani</option>
+              <option value="momo_momos">Momo Momos</option>
+            </optgroup>
+            <optgroup label="Drinks">
+              <option value="mojitos">Mojitos</option>
+              <option value="juice">Juice</option>
+              <option value="shakes">Shakes</option>
+              <option value="coca_cola">Coca-Cola</option>
+            </optgroup>
+          </select>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+      <section id="delivery">
+        <h2>Delivery</h2>
+        <p>We deliver to your door within 30 minutes!</p>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 Foodiee Delivery </p>
+    </footer>
+  </body>
+</html>
